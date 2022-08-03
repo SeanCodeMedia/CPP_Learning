@@ -1,0 +1,14 @@
+1>------ Build started: Project: Game01_vc12x, Configuration: x86 Debug Win32 ------
+1>  Game01.cpp
+1>  PVRTexTool_interface.cpp
+1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+1>Game01.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+1>LIBCMTD.lib(strtoq.obj) : warning LNK4006: _strtof already defined in s3e_d.lib(iwcrt_common.obj); second definition ignored
+1>LIBCMTD.lib(sscanf.obj) : warning LNK4006: _vsscanf already defined in s3e_d.lib(iwcrt_win32.obj); second definition ignored
+1>     Creating library Debug_Game01_vc12x_x86\Game01.lib and object Debug_Game01_vc12x_x86\Game01.exp
+1>Debug_Game01_vc12x_x86\Game01.s86 : warning LNK4088: image being generated due to /FORCE option; image may not run
+1>  Game01_vc12x.vcxproj -> c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86
+1>  C:\Marmalade\7.6\s3e\python\python.exe .\process_map.py "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86"
+1>  "s3e_plink" -l "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86" 
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

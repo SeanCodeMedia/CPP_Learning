@@ -1,0 +1,17 @@
+﻿Build started 3/23/2015 5:48:31 PM.
+     1>Project "C:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Game01_vc12x.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Performing Custom Build Tools
+         msg: option 'default-buildenv' overridden by command line
+         C:\Marmalade\7.6\s3e\makefile_builder\mkb.py c:/Users/Sean/Documents/C++/Mormalade/Game01/Game01.mkb --buildenv=VC12X --default-buildenv=vc12x --msvc-project
+         Building project: c:/Users/Sean/Documents/C++/Mormalade/Game01/Game01.mkb
+         Visual studio files updated (filters).
+         -
+     1>CUSTOMBUILD : Deliberate error : please reload now.
+         
+         done
+     1>Done Building Project "C:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Game01_vc12x.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:21.98

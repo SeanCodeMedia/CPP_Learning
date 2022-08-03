@@ -1,0 +1,2 @@
+^C:\USERS\SEAN\DOCUMENTS\C++\MORMALADE\GAME01\GAME01.MKB
+"C:\Marmalade\7.6\s3e\python\python.exe" "C:\Marmalade\7.6\s3e\makefile_builder\mkb.py" "c:/Users/Sean/Documents/C++/Mormalade/Game01/Game01.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project

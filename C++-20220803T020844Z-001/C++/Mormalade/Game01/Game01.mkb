@@ -1,0 +1,16 @@
+#!/usr/bin/env mkb
+files
+{
+    Game01.cpp
+}
+
+subprojects
+{
+    iwutil
+    iwgx
+	iw2d
+}
+
+deployment
+{
+}

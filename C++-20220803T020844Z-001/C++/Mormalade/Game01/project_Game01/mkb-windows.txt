@@ -1,0 +1,1 @@
+VC12X;build_game01_vc12x;

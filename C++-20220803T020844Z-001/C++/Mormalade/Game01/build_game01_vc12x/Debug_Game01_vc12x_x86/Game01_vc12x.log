@@ -1,0 +1,32 @@
+﻿Build started 3/23/2015 5:49:48 PM.
+     1>Project "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Game01_vc12x.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Marmalade\7.6\s3e\bin\CL.exe /c /Ic:/marmalade/7.6/modules/iwutil/h /Ic:/marmalade/7.6/modules/third_party/libjpeg/h /Ic:/marmalade/7.6/modules/third_party/zlib/h /Ic:/marmalade/7.6/modules/third_party/libpng/h /Ic:/marmalade/7.6/modules/iwgx/h /Ic:/marmalade/7.6/modules/iwgl/h /Ic:/marmalade/7.6/modules/iwgeom/h /Ic:/marmalade/7.6/modules/iwresmanager/h /Ic:/marmalade/7.6/extensions/pvrtextool/h /Ic:/marmalade/7.6/modules/iw2d/h /Ic:/marmalade/7.6/modules/iwgxfont/h /Ic:/marmalade/7.6/modules/third_party/tiniconv/source /Ic:/marmalade/7.6/s3e/h /Ic:/marmalade/7.6/s3e/h/ext /Ic:/marmalade/7.6/s3e/h/std /Ic:/marmalade/7.6/s3e/h/std/c++ /Ic:/marmalade/7.6/s3e/h/ext_legacy /Ic:/marmalade/7.6/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_Game01_vc12x_x86\\" /Fd"Debug_Game01_vc12x_x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\temp_defines_debug.h" ..\Game01.cpp c:\marmalade\7.6\extensions\pvrtextool\interface\PVRTexTool_interface.cpp
+         Game01.cpp
+         PVRTexTool_interface.cpp
+       Link:
+         C:\Marmalade\7.6\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_Game01_vc12x_x86\Game01.s86" /INCREMENTAL /NOLOGO /LIBPATH:c:/marmalade/7.6/modules/iwutil/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/third_party/libjpeg/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/third_party/zlib/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/third_party/libpng/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/iwgx/atitools /LIBPATH:c:/marmalade/7.6/modules/iwgx/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/iwgl/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/iwgeom/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/iwresmanager/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/iw2d/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/iwgxfont/lib/x86 /LIBPATH:c:/marmalade/7.6/modules/third_party/tiniconv/lib/x86 /LIBPATH:c:/marmalade/7.6/s3e/lib/x86 vc6_compat.lib iwutil_d.lib jpeg_d.lib z_d.lib png_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwgeom_d.lib iwresmanager_d.lib iw2d_d.lib iwgxfont_d.lib tiniconv_d.lib s3e_cpp_d.lib s3e_d.lib s3e_api_iwgl.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"Debug_Game01_vc12x_x86\Game01.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_Game01_vc12x_x86\Game01.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /force:multiple /DLL Debug_Game01_vc12x_x86\Game01.obj
+         Debug_Game01_vc12x_x86\PVRTexTool_interface.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     1>Game01.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LIBCMTD.lib(strtoq.obj) : warning LNK4006: _strtof already defined in s3e_d.lib(iwcrt_common.obj); second definition ignored
+     1>LIBCMTD.lib(sscanf.obj) : warning LNK4006: _vsscanf already defined in s3e_d.lib(iwcrt_win32.obj); second definition ignored
+            Creating library Debug_Game01_vc12x_x86\Game01.lib and object Debug_Game01_vc12x_x86\Game01.exp
+     1>Debug_Game01_vc12x_x86\Game01.s86 : warning LNK4088: image being generated due to /FORCE option; image may not run
+         Game01_vc12x.vcxproj -> c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86
+       PostBuildEvent:
+         echo C:\Marmalade\7.6\s3e\python\python.exe .\process_map.py "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86"
+         chdir /d "c:\marmalade\7.6\s3e\tools"
+         C:\Marmalade\7.6\s3e\python\python.exe .\process_map.py "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86"
+         echo "s3e_plink" -l "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86" 
+         chdir /d "c:\marmalade\7.6\s3e\bin"
+         "s3e_plink" -l "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86" 
+         
+         :VCEnd
+         C:\Marmalade\7.6\s3e\python\python.exe .\process_map.py "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86"
+         "s3e_plink" -l "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Debug_Game01_vc12x_x86\Game01.s86" 
+     1>Done Building Project "c:\Users\Sean\Documents\C++\Mormalade\Game01\build_game01_vc12x\Game01_vc12x.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.46
